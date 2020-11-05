@@ -26,7 +26,7 @@
    font-style: normal;
 }
 
-@font-face 
+@font-face
 {
   font-family: 'SegoeUI-Light';
   src: url('../Styles/Fonts/SegoeUI-Light.woff') format('woff'),
@@ -75,13 +75,13 @@ div.HeaderRight
 {
     width:679px;
     height: 550px;
-    float:right;
+    float: right;
     display: inline-block;
     background-image: url("../Images/ImgHeader.png");
     background-size: 679px 550px;
 }
 
-div.InvisibleManName
+div.FreezeVPNName
 {
     position:absolute;
     width:auto;
@@ -93,7 +93,7 @@ div.InvisibleManName
     font-weight:normal;
 }
 
-div.InvisibleManDescription
+div.FreezeVPNDescription
 {
     position:absolute;
     width:auto;
@@ -105,7 +105,7 @@ div.InvisibleManDescription
     font-weight:lighter;
 }
 
-div.InvisibleManUpdateTime
+div.FreezeVPNUpdateTime
 {
     position:absolute;
     width:auto;
@@ -203,7 +203,7 @@ a.Button32:active
 
 @media screen and (max-width: 600px)
 {
-    div.InvisibleManName
+    div.FreezeVPNName
     {
         position:absolute;
         width:auto;
@@ -215,7 +215,7 @@ a.Button32:active
         font-weight:normal;
     }
 
-    div.InvisibleManDescription
+    div.FreezeVPNDescription
     {
         position:absolute;
         width:auto;
@@ -227,7 +227,7 @@ a.Button32:active
         font-weight:lighter;
     }
 
-    div.InvisibleManUpdateTime
+    div.FreezeVPNUpdateTime
     {
         position:absolute;
         width:auto;
